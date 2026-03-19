@@ -30,6 +30,9 @@ app.use("/api/donor", donorRoutes);
 app.use("/api/facility", facilityRoutes);
 
 app.use("/api/admin", adminRoutes);
+app.get("/", (req, res) => {
+  res.send("Blood Bank API is running 🚀");
+});
 
 
 
