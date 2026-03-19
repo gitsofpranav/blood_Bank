@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://blood-bank-37ho.onrender.com", // or 3000
+  origin: "https://blood-bank-one-tawny.vercel.app/", // or 3000
   credentials: true,
 }));
 
